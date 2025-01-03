@@ -124,6 +124,30 @@
             border-radius: 30px;
             padding: 10px 20px;
         }
+        .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    z-index: 1000;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
     </style>
 </head>
 
@@ -357,6 +381,12 @@
         <div class="mb-5"></div>
     </section>
 
+    <a href="https://wa.me/584241795891?text=Hola,%20te%20contacto%20desde%20la%20web%20de%20Ecoelite.%20¡Estoy%20interesado/a%20en%20sus%20servicios!" 
+    target="_blank" 
+    class="whatsapp-float">
+     <i class="fab fa-whatsapp"></i>
+ </a>
+ 
 
 
     <footer class="text-center bg-dark text-white py-2">
