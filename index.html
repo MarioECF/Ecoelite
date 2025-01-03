@@ -93,6 +93,31 @@
     #home-btn:active {
         transform: scale(1.1); /* Crece un 10% al hacer clic */
     }
+    .btn-instagram {
+    background-color: #E1306C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-instagram:hover {
+    background-color: #C13584;
+}
+
+.btn-instagram i {
+    margin-right: 8px;
+}
+.btn-success{
+border-radius: 30px;
+padding: 10px 20px;
+}
+
 
     </style>
 </head>
@@ -102,8 +127,9 @@
         <div class="container d-flex align-items-center justify-content-center">
             <div class="row w-100">
                 <div class="col-md-4 mb-3 mb-md-0 text-md-left text-center">
-                    <img src="Principal_Ecoelite.png" alt="Logo Ecoelite" class="rounded-circle  img-fluid"
-                        style="width:60%;">
+                    <a href="#header">
+                        <img src="Principal_Ecoelite.png" alt="Logo Ecoelite" class="rounded-circle img-fluid" style="width:60%;">
+                    </a>
                 </div>
                 <div class="col-md-8 text-md-left text-center d-flex flex-column justify-content-center">
                     <h1 class="animate__animated animate__fadeInDown text-center">"Piensa verde, piensa Ecoelite."</h1>
@@ -113,6 +139,7 @@
             </div>
         </div>
     </header>
+    
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container">
@@ -262,11 +289,15 @@
                     <p><strong>Servicio:</strong> Recolección gratuita de aceite vegetal usado</p>
                     <p><strong>E-mail:</strong> <a href="mailto:ecoelite2022@gmail.com">ecoelite2022@gmail.com</a></p>
                     <p><strong>Móvil:</strong> <a href="tel:+584241795891">+584241795891</a></p>
-                    <p><strong>WhatsApp:</strong>
-                        <a href="https://wa.me/584241795891" target="_blank" class="btn btn-success mt-3">
+                    <p>
+                        <a href="https://wa.me/584241795891" target="_blank" class="btn btn-success">
                             <i class="fab fa-whatsapp"></i> Enviar mensaje por WhatsApp
                         </a>
                     </p>
+                    <a href="https://www.instagram.com/ecoelite.vzla/" target="_blank" class="btn btn-instagram">
+                        <i class="fab fa-instagram"></i> Síguenos en Instagram
+                    </a>
+                    
                 </div>
 
                 <!-- Columna del mapa -->
@@ -288,11 +319,13 @@
 
     <footer class="text-center bg-dark text-white py-2">
         <div class="container">
-            
-            <img src="Principal_Ecoelite-removebg-preview.png" alt="Logo Ecoelite" class="img-fluid d-inline-block" style="width: 80px; height: auto; vertical-align: middle;">
+            <a href="#header">
+                <img src="Principal_Ecoelite-removebg-preview.png" alt="Logo Ecoelite" class="img-fluid d-inline-block" style="width: 80px; height: auto; vertical-align: middle;">
+            </a>
             <p class="d-inline-block mb-0">© 2025 Todos los derechos reservados.</p>
         </div>
     </footer>
+    
     
     
 
